@@ -30,25 +30,127 @@ function show() {
 
 }
 
+function Page1Animation() {
 
 
+  var txts = document.querySelectorAll(".txts")
 
-gsap.from("#maintext", {
+  for (let i = 0; i < txts.length; i++) {
+    gsap.from(txts[i], {
 
-  opacity: 0,
-  duration: 3,
+      opacity: 0,
+      duration: 3,
 
-  onStart: function () {
-    $("#maint").textillate({ in: { effect: 'fadeInUp' } });
+      onStart: function () {
+        $(txts[i]).textillate({ in: { effect: 'fadeInUp' } });
+      }
+    })
+
   }
-})
+
+}
+
+function ImgAnimation() {
+  gsap.to(".img-animate", {
+
+    scrollTrigger: {
+      trigger: ".img-animate",
+      scroller: "#main",
+      end: "top 50%",
+      scrub: true,
+    },
+    height: "40vh",
+  })
+
+  gsap.to(".img-animate1", {
+
+    scrollTrigger: {
+      trigger: ".img-animate",
+      scroller: "#main",
+      end: "top 50%",
+      scrub: true,
+    },
+    height: "50vh",
+  })
+
+}
+
+function ImgMobileAnimation() {
+  gsap.to(".img-animate", {
+
+    scrollTrigger: {
+      trigger: ".img-animate",
+      scroller: "#main",
+      end: "top 50%",
+      scrub: true,
+    },
+    height: "17vh",
+  })
+
+  gsap.to(".img-animate1", {
+
+    scrollTrigger: {
+      trigger: ".img-animate",
+      scroller: "#main",
+      end: "top 50%",
+      scrub: true,
+    },
+    height: "22vh",
+  })
+
+}
+
+function TextAnimation() {
+
+  var elems = document.querySelectorAll(".upper");
+  for (let i = 0; i < elems.length; i++) {
+    gsap.to(elems[i], {
+
+      scrollTrigger: {
+        trigger: elems[i],
+        scroller: "#main",
+        scrub: true,
+      },
+      opacity: 1,
+      y: '-60',
+    })
+  }
+
+  var elems2 = document.querySelectorAll(".upper-txt");
+  for (let i = 0; i < elems.length; i++) {
+    gsap.to(elems2[i], {
+
+      scrollTrigger: {
+        trigger: elems2[i],
+        scroller: "#main",
+        scrub: true,
+      },
+      opacity: 1,
+      y: '-85',
+    })
+  }
+
+}
 
 
 
 
 
-
-
-
+if(window.innerWidth<=500){
 
 show();
+Page1Animation();
+
+ImgMobileAnimation();
+TextAnimation();
+
+}
+
+else {
+
+  show();
+  Page1Animation();
+  TextAnimation();
+  ImgAnimation();
+
+}

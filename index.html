@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Tura Cafe</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
         <div id="page1">
 
-            <nav>
+            <nav data-scroll data-scroll-sticky data-scroll-target="#main">
 
                 <div class="logo-part"><span>T</span><span>u</span><span>r</span><span>a</span></div>
 
@@ -35,7 +35,7 @@
 
             </nav>
             <div class="main-text">
-                <h1 id="maint">TURA</h1>
+                <h1 class="txts">TURA</h1>
             </div>
             <div class="sub-text">
                 <h4>Lorem, ipsum dolor.</h4>
@@ -43,7 +43,7 @@
             </div>
 
 
-            <div class="social-media-icons">
+            <div data-scroll data-scroll-sticky data-scroll-target="#main" class="social-media-icons">
                 <i class="ri-facebook-circle-fill"></i>
                 <i class="ri-instagram-fill"></i>
                 <i class="ri-twitter-fill"></i>
@@ -54,37 +54,37 @@
         <div id="page2">
 
 
-            <div class="img-container">
-                <div id="img-div1" class="img-animate"></div>
-                <div id="img-div2" class="img-animate"></div>
-                <div id="img-div3" class="img-animate"></div>
+            <div class="img-container upper">
+                <div id="img-div1" class="img-animate upper"></div>
+                <div id="img-div2" class="img-animate1 upper"></div>
+                <div id="img-div3" class="img-animate upper"></div>
             </div>
 
-            <h2>Keet Cafe </h2>
+            <h2 class="upper-txt">Keet Cafe </h2>
 
-            <div class="center-elems">
+            <div class="center-elems upper">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum assumenda dignissimos <br>
+                <p class="upper">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eum assumenda dignissimos <br>
                     consequuntur sequi, dolor alias odit similique non ad.</p>
 
 
-                <button>View All Products</button>
+                <button class="upper">View All Products</button>
             </div>
         </div>
 
 
-        <div id="page3">
+        <div class="upper" id="page3">
 
-            <div id="about">
-                <h2>About</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur <br> impedit quos vel
+            <div class="upper-txt" id="about">
+                <h2 class="uppper-txt">About</h2>
+                <p class="upper">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur <br> impedit quos vel
                     eos iusto fugiat quas quod dicta? Non libero doloremque illum. <br> quos mollitia facere tenetur
                     nobis aut!</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur <br> impedit quos vel
+                <p class="upper">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae pariatur <br> impedit quos vel
                     eos iusto fugiat quas quod dicta? Non libero doloremque illum. <br> quos mollitia facere tenetur
                     nobis aut!</p>
 
-                <button>Read More</button>
+                <button class="upper">Read More</button>
 
             </div>
 
@@ -92,23 +92,23 @@
         </div>
 
         <footer>
-            <div id="left">
-                <h2>Contact</h2>
-                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> In consequuntur eligendi illo
+            <div class="upper-txt" id="left">
+                <h2 class="upper-txt">Contact</h2>
+                <p class="upper" id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> In consequuntur eligendi illo
                     officia!
                     Quae, libero. <br> Maiores qui perspiciatis consequuntur ea, id facilis, <br> minus commodi
                     accusantium deserunt <br> quibusdam illo vel expedita!</p>
 
-                <address>
+                <address class="upper">
                     <h4>Address</h4>
                     Lorem, ipsum dolor.
                 </address>
 
-                <div class="phone">
+                <div class="phone upper">
                     <h4>Phone</h4>
                     <p>+91 1000000001</p>
                 </div>
-                <div class="email">
+                <div class="email upper">
                     <h4>Email</h4>
                     <p>lorem@lorem.lorem</p>
                 </div>
@@ -116,16 +116,16 @@
 
 
             </div>
-            <div id="right">
-                <div id="contact-form">
-                    <h2>Contact Form</h2>
+            <div  id="right">
+                <div class="upper" id="contact-form">
+                    <h2 class="upper">Contact Form</h2>
                     <form action="">
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
-                        <input type="email" placeholder="Your Email">
-                        <input type="text" placeholder="Message">
+                        <input class="upper" type="text" placeholder="First Name">
+                        <input class="upper" type="text" placeholder="Last Name">
+                        <input class="upper" type="email" placeholder="Your Email">
+                        <input class="upper" type="text" placeholder="Message">
 
-                        <input id="submit" type="submit" value="Send Message">
+                        <input class="upper" id="submit" type="submit" value="Send Message">
 
 
 
