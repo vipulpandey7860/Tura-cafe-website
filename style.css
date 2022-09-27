@@ -467,6 +467,9 @@ form input:hover {
     nav .logo-part span {
         font-size: 4.8vw;
     }
+    nav .links-part a{
+        font-weight: 500;
+    }
 
     #page1 {
         height: 85vh;

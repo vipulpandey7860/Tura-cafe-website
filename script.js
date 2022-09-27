@@ -136,13 +136,11 @@ function TextAnimation() {
 
 
 
-if(window.innerWidth<=500){
+if (window.innerWidth <= 500) {
 
-show();
-Page1Animation();
-
-ImgMobileAnimation();
-TextAnimation();
+  show();
+  Page1Animation();
+  ImgMobileAnimation();
 
 }
 
