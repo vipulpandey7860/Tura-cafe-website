@@ -132,38 +132,6 @@ function TextAnimation() {
 
 }
 
-function TextMobileAnimation() {
-
-  var elems = document.querySelectorAll(".upper");
-  for (let i = 0; i < elems.length; i++) {
-    gsap.to(elems[i], {
-
-      scrollTrigger: {
-        trigger: elems[i],
-        scroller: "#main",
-        scrub: true,
-      },
-      opacity: 1,
-      y: '-40',
-    })
-  }
-
-  var elems2 = document.querySelectorAll(".upper-txt");
-  for (let i = 0; i < elems.length; i++) {
-    gsap.to(elems2[i], {
-
-      scrollTrigger: {
-        trigger: elems2[i],
-        scroller: "#main",
-        scrub: true,
-      },
-      opacity: 1,
-      y: '-60',
-    })
-  }
-
-}
-
 
 
 
@@ -172,14 +140,13 @@ if (window.innerWidth <= 500) {
   show();
   Page1Animation();
   ImgMobileAnimation();
-  TextMobileAnimation();
 }
 
 else {
 
   show();
   Page1Animation();
-  TextAnimation();
   ImgAnimation();
+  TextAnimation();
 
 }
