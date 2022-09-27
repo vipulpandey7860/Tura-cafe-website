@@ -1,0 +1,391 @@
+@font-face {
+    font-family: attila;
+    src: url("assets/attila.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #191A1F;
+
+}
+
+#main{
+    position: relative;
+}
+
+#page1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 3vw;
+    z-index: 999999999;
+
+
+}
+
+nav .logo-part {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+nav .logo-part span {
+    text-transform: uppercase;
+    color: white;
+    line-height: 3.3vh;
+    font-size: 1.8vw;
+    margin: 0 1px;
+    font-family: "attila" !important;
+
+}
+
+nav .links-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+nav .links-part a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+
+}
+
+.main-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vw;
+    color: white;
+}
+
+.main-text h1 {
+
+    filter: drop-shadow(1vw 1vw 1vw black);
+    font-family: "attila";
+    overflow: hidden;
+
+}
+
+.sub-text {
+    position: absolute;
+    top: 65vh;
+    left: 60%;
+    display: inline-block;
+    color: white;
+}
+
+.sub-text h4 {
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.social-media-icons {
+    position: fixed !important;
+    position: absolute;
+    bottom: 10vh;
+    left: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999999;
+}
+
+.social-media-icons i {
+    color: white;
+    font-size: 1.5vw;
+}
+
+#page2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    left: 15%;
+    background-image: linear-gradient(transparent 85%, #1c1d23 15%);
+    backdrop-filter: blur(5px);
+}
+
+
+
+#img-div1 {
+    position: relative;
+    height: 40vh;
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/1813466/pexels-photo-1813466.jpeg?auto=compress&cs=tinysrgb&w=600");
+    filter: drop-shadow(1vw 1vw 1vw black);
+    border-radius: 5px;
+
+
+}
+
+#img-div2 {
+    position: relative;
+    height: 50vh;
+    width: 25vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2467287/pexels-photo-2467287.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    filter: drop-shadow(1vw 1vw 1vw black);
+    border-radius: 5px;
+
+
+}
+
+
+#img-div3 {
+    position: relative;
+    height: 40vh;
+    width: 20vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/5531659/pexels-photo-5531659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    filter: drop-shadow(1vw 1vw 1vw black);
+    border-radius: 5px;
+
+}
+
+#page2>h2 {
+    font-family: "attila";
+    font-size: 5vw;
+    position: relative;
+    display: inline-block;
+    left: 35%;
+    top: -10%;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    filter: drop-shadow(1vw 1vw 1vw black);
+
+}
+
+.center-elems {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    top: -5vh;
+}
+
+.center-elems p {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+.center-elems button {
+    text-decoration: none;
+    border: none;
+    background-color: #191A1F;
+    color: white;
+    filter: drop-shadow(1vw 1vw 1vw black);
+    height: 7vh;
+    width: 17vw;
+    font-size: 1.5vw;
+    font-weight: 200;
+
+}
+
+#page3 {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+#about {
+    position: relative;
+    color: white;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+
+}
+
+#about h2 {
+    font-size: 5vw;
+    text-transform: uppercase;
+    filter: drop-shadow(.5vw .5vw .5vw black);
+
+
+
+}
+
+#about p {
+
+    font-weight: 200;
+    font-family: "gilroy";
+    font-size: 1.3vw;
+}
+
+
+#about button {
+    background-color: #191A1F;
+    border: none;
+    color: white;
+    height: 7vh;
+    width: 13vw;
+    filter: drop-shadow(.5vw .5vw .5vw black);
+    font-family: "gilroy";
+    font-weight: 200;
+    font-size: 1.5vw;
+}
+
+
+
+footer {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: "gilroy";
+    font-weight: 200;
+}
+
+#left {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    gap: 4vh;
+    font-family: "gilroy";
+
+
+}
+
+
+#left h2 {
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-family: "attila";
+    filter: drop-shadow(.5vw .5vw .5vw black);
+
+}
+
+address h4 {
+    font-weight: 400;
+}
+
+.phone h4 {
+    font-weight: 400;
+}
+
+.email h4 {
+    font-weight: 400;
+}
+
+#right {
+    height: 100%;
+    width: 50vw;
+
+}
+
+#contact-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+    text-align: center;
+    color: white;
+    background-color: #1c1d23;
+    filter: drop-shadow(1vw 1vw 1vw black);
+    height: 70vh;
+    width: 40vw;
+    top: 12vh;
+}
+
+#contact-form h2 {
+    font-family: "attila";
+    font-size: 3vw;
+    text-transform: uppercase;
+    filter: drop-shadow(.5vw .5vw .5vw black);
+
+
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+    text-align: center;
+    color: white;
+}
+
+form input {
+    position: relative;
+    text-decoration: none;
+    background-color: #1c1d23;
+    border: none;
+    border-bottom: 1px solid rgb(255, 248, 235);
+    font-size: 1.5vw;
+    color: white;
+    width: 35vw;
+}
+
+::placeholder {
+    color: white;
+}
+
+form input:hover {
+    border: none !important;
+}
+
+
+#submit {
+    filter: drop-shadow(1vw 1vw 1vw black);
+    border: none;
+    height: 7vh;
+    width: 13vw;
+    margin-top: 5vh;
+    color: white;
+    font-weight: 200;
+}
