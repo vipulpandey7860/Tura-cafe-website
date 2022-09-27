@@ -3,12 +3,15 @@
     src: url("assets/attila.ttf");
 }
 
+@font-face {
+    font-family: gilroy;
+    src: url("assets/Gilroy-Thin.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "gilroy";
-
 
 }
 
@@ -21,7 +24,7 @@ body {
 
 }
 
-#main{
+#main {
     position: relative;
 }
 
@@ -29,6 +32,8 @@ body {
     position: relative;
     width: 100vw;
     height: 100vh;
+    font-family: "gilroy";
+
 }
 
 nav {
@@ -125,6 +130,8 @@ nav .links-part a {
     position: relative;
     height: 100vh;
     width: 100vw;
+    font-family: "gilroy";
+
 }
 
 .img-container {
@@ -221,12 +228,16 @@ nav .links-part a {
     width: 17vw;
     font-size: 1.5vw;
     font-weight: 200;
+    font-family: "gilroy";
+
 
 }
 
 #page3 {
     height: 100vh;
     width: 100vw;
+    font-family: "gilroy";
+
 
 }
 
@@ -239,6 +250,7 @@ nav .links-part a {
     align-items: center;
     justify-content: center;
     gap: 5vh;
+    font-family: "attila";
 
 }
 
@@ -388,4 +400,137 @@ form input:hover {
     margin-top: 5vh;
     color: white;
     font-weight: 200;
+    font-family: "gilroy";
+
+}
+
+@media only screen and (max-width:500px) {
+
+    nav {
+        padding: 4vh 8vw;
+    }
+
+    nav .links-part {
+        width: 55vw;
+    }
+
+    nav .logo-part span {
+        font-size: 4.8vw;
+    }
+
+    #page1 {
+        height: 85vh;
+    }
+
+    .main-text {
+        width: 78vw;
+        font-size: 12vw;
+    }
+
+    .sub-text h4 {
+        font-size: 3vw;
+        right: 4vh;
+        position: relative;
+    }
+
+    .social-media-icons i {
+        font-size: 4.5vw;
+    }
+
+    #page2 {
+        height: initial;
+    }
+
+    .img-container {
+        left: 10%;
+        width: 80%;
+        height: 28.8vh;
+    }
+
+    #img-div1 {
+        height: 17vh;
+    }
+
+    #img-div2 {
+        height: 22vh;
+    }
+
+    #img-div3 {
+        height: 17vh;
+    }
+
+
+    #page2>h2 {
+        top: -6vh;
+        left: 29vw;
+        font-size: 7vw;
+    }
+
+    .center-elems p {
+        font-size: 2.7vw;
+        width: 80vw;
+    }
+
+    .center-elems button {
+        font-size: 3.5vw;
+        width: 46vw;
+    }
+
+    #page3 {
+        height: initial;
+    }
+
+    #about h2 {
+        font-size: 8vw;
+    }
+
+    #about p {
+        font-size: 2.7vw;
+        width: 80%;
+    }
+
+    #about button {
+        width: 40vw;
+        font-size: 3.5vw;
+    }
+
+    #about {
+        margin-bottom: 55vh;
+
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 45vh;
+    }
+
+    #left h2 {
+        font-size: 7vw;
+    }
+
+    #contact-form {
+        width: 70vw;
+        height: 55vh;
+        position: relative;
+        left: -7vw;
+        margin-bottom: 5vh;
+
+    }
+
+    form input{
+        width: 50vw;
+        font-size: 2.7vw;
+    }
+
+    #contact-form h2{
+        font-size: 5.5vw;
+    }
+
+    #submit{
+        width: 40vw;
+        font-size: 3.5vw;
+    }
+
 }
