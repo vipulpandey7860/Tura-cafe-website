@@ -83,7 +83,6 @@ function ImgMobileAnimation() {
       scroller: "body",
       start: "top 50%",
       scrub: true,
-      markers:true
     },
     height: "17vh",
   })

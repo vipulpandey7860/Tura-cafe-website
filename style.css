@@ -468,7 +468,8 @@ form input:hover {
         font-size: 4.8vw;
     }
     nav .links-part a{
-        font-weight: 500;
+        font-weight: 900;
+        font-size: 4vw;
     }
 
     #page1 {
@@ -481,7 +482,7 @@ form input:hover {
     }
 
     .sub-text h4 {
-        font-size: 3vw;
+        font-size: 3.5vw;
         right: 4vh;
         position: relative;
     }
@@ -514,19 +515,22 @@ form input:hover {
 
 
     #page2>h2 {
-        top: -6vh;
         left: 29vw;
         font-size: 7vw;
     }
 
     .center-elems p {
-        font-size: 2.7vw;
+        position: relative;
+        font-size: 3.4vw;
         width: 80vw;
+        top: 10vh;
     }
 
     .center-elems button {
         font-size: 3.5vw;
+        position: relative;
         width: 46vw;
+        top: 10vh;
     }
 
     #page3 {
@@ -534,17 +538,18 @@ form input:hover {
     }
 
     #about h2 {
-        font-size: 8vw;
+        font-size: 10vw;
     }
 
     #about p {
-        font-size: 2.7vw;
+        font-size: 3.4vw;
         width: 80%;
+        text-align: center;
     }
 
     #about button {
         width: 40vw;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #about {
@@ -564,36 +569,37 @@ form input:hover {
         width: 80vw;
     }
     #left h2 {
-        font-size: 7vw;
+        font-size: 10vw;
         top: initial;
     }
 
     #left p{
-        width: 66vw;
+        width: 90vw;
+        font-size: 3.4vw;
     }
 
     #contact-form {
-        width: 70vw;
+        width: 80vw;
         height: 55vh;
         position: relative;
-        left: -9vw;
+        left: -15vw;
         margin-bottom: 5vh;
-        top: 10vh;
+        top: 5vh;
 
     }
 
     form input {
         width: 50vw;
-        font-size: 2.7vw;
+        font-size: 3.7vw;
     }
 
     #contact-form h2 {
-        font-size: 5.5vw;
+        font-size: 6vw;
     }
 
     #submit {
         width: 40vw;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
 }
