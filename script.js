@@ -80,9 +80,10 @@ function ImgMobileAnimation() {
 
     scrollTrigger: {
       trigger: ".img-animate",
-      scroller: "#main",
-      end: "top 50%",
+      scroller: "body",
+      start: "top 50%",
       scrub: true,
+      markers:true
     },
     height: "17vh",
   })
@@ -91,7 +92,7 @@ function ImgMobileAnimation() {
 
     scrollTrigger: {
       trigger: ".img-animate",
-      scroller: "#main",
+      scroller: "body",
       end: "top 50%",
       scrub: true,
     },

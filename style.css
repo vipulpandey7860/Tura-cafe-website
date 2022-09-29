@@ -557,10 +557,19 @@ form input:hover {
         align-items: center;
         justify-content: center;
         padding-bottom: 45vh;
+        padding-top: 2vh;
     }
 
+    #left{
+        width: 80vw;
+    }
     #left h2 {
         font-size: 7vw;
+        top: initial;
+    }
+
+    #left p{
+        width: 66vw;
     }
 
     #contact-form {
