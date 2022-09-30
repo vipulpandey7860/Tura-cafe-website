@@ -454,6 +454,16 @@ form input:hover {
 
 }
 
+footer h6{
+    color: white;
+    position: absolute;
+    bottom: 3vh;
+    font-weight: 100;
+    left: 40vw;
+    font-size: 1vw;
+    letter-spacing: 1px;
+}
+
 @media only screen and (max-width:500px) {
 
     nav {
@@ -600,6 +610,13 @@ form input:hover {
     #submit {
         width: 40vw;
         font-size: 4vw;
+    }
+
+    footer h6{
+        bottom: -1.5vh;
+        font-size: 2vw;
+        left: 30vw;
+        margin-bottom: 15vh;
     }
 
 }
