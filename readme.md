@@ -4,8 +4,7 @@ This is a frontend for Tura Cafe website created using HTML, CSS, and JS. It fea
 
 Check out the live website [here](https://i-vipulpandey.github.io/Tura-cafe-website/).
 
-Table of Contents
------------------
+## Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
