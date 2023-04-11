@@ -12,7 +12,6 @@ Table of Contents
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
-- [License](#license)
 
 ## Features
 
@@ -44,6 +43,3 @@ Contributions are welcome! If you have any suggestions or would like to report a
 
 The design of this frontend was inspired by various cafe websites.
 
-## License
-
-This project is licensed under the [MIT License](https://github.com/i-vipulpandey.github.io/Tura-cafe-website/blob/main/LICENSE).
