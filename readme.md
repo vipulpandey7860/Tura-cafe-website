@@ -46,4 +46,4 @@ The design of this frontend was inspired by various cafe websites.
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/your-username/your-repo-name/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/i-vipulpandey.github.io/Tura-cafe-website/blob/main/LICENSE).
